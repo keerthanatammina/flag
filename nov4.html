@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGE DIVISION</title>
+    <style>
+    body{
+        font-family: Arial;
+        color: aqua;
+    }
+    .split{
+        height: 100%;
+        width: 50%;
+        position: fixed;
+    }
+    .left{
+        left:0;
+        background-color: slategrey;
+    }
+    .right{
+        right:0;
+        background-color:darkgoldenrod;
+    }
+    .centered
+    {
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+    }
+    
+    </style>
+</head>
+<body>
+    <div class=  "split left">
+        <div class="centered">
+        <h2> LAKSHMI</h2>
+         </div>
+    </div>
+    <div class=  "split right">
+        <div class="centered">
+        <h2>KEERTHANA</h2>
+        </div>
+    </div>
+</body>
+</html>
