@@ -3,7 +3,47 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-image: url("https://media.istockphoto.com/id/1339787499/photo/empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg?b=1&s=170667a&w=0&k=20&c=sEYFpHbrxOugC-NlO4vh1AQurJAsR-RnLbg_KHgj3kM=");
+
+}
+*{
+    box-sizing: border-box;
+}
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+video{
+    border: 2px solid aqua;
+}
+pre{
+    text-align: center;
+    color: gold;
+    height: 300px;
+    width: 300px;
+    border-radius: 2px 2px 2px 2px;
+    padding:80px;
+    margin:40px solid aqua;
+    float: center;
+}
+form {
+    text-align: center;
+    color: aqua;
+    float: center;
+}
+img{
+    border: 10px solid aqua;
+}
+marquee{
+    color: white;
 }
 li,a,button {
     font-family: "Montserrat",sans-serif;
@@ -26,7 +66,6 @@ header{
 nav{
     order:1;
 }
-
 .nav_links{
     list-style: none;
 }

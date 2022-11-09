@@ -1,0 +1,151 @@
+*{
+    margin: 0%;
+   }
+   .navigation{
+    padding: 1%;
+    font-family: 'Poppins', sans-serif;
+    font: bold;
+   }
+   .navigation img{
+    vertical-align: middle;
+   }
+   .paytmlogo{
+    margin: 0% 4.5% 0% 3%;
+   }
+   .navigation a{
+    color: black;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 1.8%;
+    margin-left: 1%;
+   }
+   .wallet{
+    background-color: rgba(239, 239, 240, 0.8);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+   }
+   #signin{
+    margin-left: 8%;
+    background-color: #00baf2;
+    color: white;
+    padding: 0.5%;
+    border-radius: 25px;
+    text-align: center;
+   }
+   .sec1{
+    display: flex;
+    justify-content: space-between;
+    padding: 7% 0% 10% 8%;
+    font-family: 'Poppins', sans-serif;
+   }
+   .India{
+    font-size: 45px;
+    margin-top: 40px;
+   }
+   .recharge{
+    font-size: 18px;
+    margin-bottom: 5%;
+    margin-top: 10px;
+   }
+   .app{
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    width: 50%;
+    padding: 1%;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 35px;
+    font-size: 13.5px;
+   }
+   .app:hover{
+    background-color: white;
+    color: black;
+   }
+   .sec2{
+    font-family: 'Poppins', sans-serif;
+    background-color: #00baf2;
+    padding: 0% 5% 5% 5%;
+   }
+   .sec3{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgba(15,74,138,255);
+    padding: 0% 5% 5% 5%;
+   }
+   .bills{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    padding: 5% 9% 4% 6%;
+    color: white;
+    justify-content: justify;
+   }
+   .book{
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    padding: 50px 90px 40px 6px;
+    color: white;
+    justify-content: justify;
+   }
+   .sec2div1 img{
+    width: 50%;
+    margin: 0% 5% 10% 5%;
+   } 
+   .sec3div1 img{
+    width: 35%;
+    margin: 0% 5% 10% 5%;
+   } 
+   .sec2div1{
+    justify-content: space-between;
+    background-color: #00baf2;
+    color: white;
+    display: flex;
+   }
+   .sec3div1{
+    justify-content: space-between;
+    background-color: rgba(15,74,138,255);
+    color: white;
+    display: flex;
+   }
+   .sec3{
+    background-color: rgba(15,74,138,255);
+   }
+   .service{
+    width: 15%;
+   }
+   .invest{
+    width: 16.5%;
+   }
+   .instrument{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+   }
+   .sec4{
+       
+    padding: 7%;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    background-color: rgba(239, 239, 239, 0.6);
+    border: 1px;
+    margin-top: 1%;
+   }
+   .sec4div1{
+    display: flex;
+    justify-content: space-between;
+    border: 1px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 8%;
+   }
+   .sec4child1{
+    display: flex;
+   }
+   .sec4 a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+    padding: 0%;
+   }
+   .sec4div2{
+    border: white;
